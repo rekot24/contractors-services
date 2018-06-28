@@ -1,0 +1,35 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Trebuchet MS";
+}
+
+header {
+  background-image: url("../images/rattle_grate.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 480px;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 0 1rem 0;
+}
+
+.phone {
+  font-family: "arial black";
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  color: red;
+}
