@@ -5,6 +5,8 @@
     <title>Contractors-Services, LLC</title>
     <link rel="stylesheet" href="./resources/css/reset.css" type="text/css">
     <link rel="stylesheet" href="./resources/css/style.css" type="text/css">
+    <link rel="icon" type="image/png" href="./resources/images/cs_logo.ico">
+    <script type="text/javascript" src="./resources/js/carousel.js"></script>
   </head>
 
   <body>
@@ -48,13 +50,43 @@
 
     <!-- Main Body -->
 
-    <main class="container">
-      <div id="carousel">
-
-        <div class="slides">
-
-        </div>
-
+    <main id="carousel">
+      <!-- Pictures -->
+      <div class="slides fade">
+        <div class="numbertext">1 / 5</div>
+        <img src="./resources/images/carousel/track.jpg" />
+        <div class="text">Rattle Track</div>
+      </div>
+      <div class="slides fade">
+        <div class="numbertext">2 / 5</div>
+        <img src="./resources/images/carousel/grate.jpg" />
+        <div class="text">Rattle Grate</div>
+      </div>
+      <div class="slides fade">
+        <div class="numbertext">3 / 5</div>
+        <img src="./resources/images/carousel/ramp.jpg" />
+        <div class="text">Free Flow Curb Ramp</div>
+      </div>
+      <div class="slides fade">
+        <div class="numbertext">4 / 5</div>
+        <img src="./resources/images/carousel/plate.jpg" />
+        <div class="text">1" Road Plate</div>
+      </div>
+      <div class="slides fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="./resources/images/carousel/muscle-wall.jpg" />
+        <div class="text">Pipe &amp Utility Road Crossing</div>
+      </div>
+      <!-- Next & Previous Buttons -->
+      <a class="prev" onclick="plus-slides(-1)">&#10094;</a>
+      <a class="prev" onclick="plus-slides(1)">&#10095;</a>
+      <!-- Dots/circles for navication of pics -->
+      <div>
+        <span class="dot" onclick="current-slide(1)"></span>
+        <span class="dot" onclick="current-slide(2)"></span>
+        <span class="dot" onclick="current-slide(3)"></span>
+        <span class="dot" onclick="current-slide(4)"></span>
+        <span class="dot" onclick="current-slide(5)"></span>
       </div>
     </main>
 
