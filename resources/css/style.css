@@ -1,10 +1,26 @@
+/* Universal Styles */
+
 html {
   font-size: 18px;
 }
 
 body {
   font-family: "Trebuchet MS";
+  line-height: 1.2;
 }
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header Styles */
 
 header {
   background-image: url("../images/rattle_grate.jpg");
@@ -14,16 +30,16 @@ header {
   height: 480px;
 }
 
-.container {
-  width: 1024px;
-  margin: 0 auto;
-}
-
-.logo {
+.banner {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 6rem 0 1rem 0;
+  background-color: rgb(0, 0, 0, .65);
+  color: white;
+  width: 34rem;
+  margin-top: 6rem;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 .name {
@@ -31,7 +47,27 @@ header {
   flex-direction: column;
   align-items: center;
   padding-left: 1rem;
+  font-weight: bold;
 }
+
+.name h1 {
+  font-size: 2rem;
+}
+
+table {
+  width: 100%;
+  margin-top: .75rem;
+}
+
+th {
+  font-size: 1.5rem;
+}
+
+th, td {
+  text-align: center;
+}
+
+/* Navigation Styles */
 
 nav {
   margin-top: -2rem;
