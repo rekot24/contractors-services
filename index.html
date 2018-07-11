@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="./resources/css/reset.css" type="text/css">
     <link rel="stylesheet" href="./resources/css/style.css" type="text/css">
     <link rel="icon" type="image/png" href="./resources/images/cs_logo.ico">
-    <script type="text/javascript" src="./resources/js/carousel.js"></script>
   </head>
 
   <body>
@@ -48,9 +47,9 @@
       </ul>
     </nav>
 
-    <!-- Main Body -->
+    <!-- Carousel Section -->
 
-    <main id="carousel">
+    <section id="carousel">
       <!-- Pictures -->
       <div class="slides fade">
         <div class="numbertext">1 / 5</div>
@@ -78,16 +77,22 @@
         <div class="text">Pipe &amp Utility Road Crossing</div>
       </div>
       <!-- Next & Previous Buttons -->
-      <a class="prev" onclick="plus-slides(-1)">&#10094;</a>
-      <a class="prev" onclick="plus-slides(1)">&#10095;</a>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
       <!-- Dots/circles for navication of pics -->
-      <div>
-        <span class="dot" onclick="current-slide(1)"></span>
-        <span class="dot" onclick="current-slide(2)"></span>
-        <span class="dot" onclick="current-slide(3)"></span>
-        <span class="dot" onclick="current-slide(4)"></span>
-        <span class="dot" onclick="current-slide(5)"></span>
+      <div class="dot">
+        <span class="dots" onclick="currentSlide(1)"></span>
+        <span class="dots" onclick="currentSlide(2)"></span>
+        <span class="dots" onclick="currentSlide(3)"></span>
+        <span class="dots" onclick="currentSlide(4)"></span>
+        <span class="dots" onclick="currentSlide(5)"></span>
       </div>
+    </section>
+    <script type="text/javascript" src="./resources/js/carousel.js"></script>
+    
+    <!-- Main Body -->
+
+    <main>
     </main>
 
     <!-- Footer Section -->
