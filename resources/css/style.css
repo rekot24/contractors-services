@@ -220,6 +220,18 @@ main {
   padding: 2rem;
 }
 
+.products-main {
+  display: flex;
+  justify-content: center;
+}
+
+.products-left,
+.products-right {
+  width: 50%;
+}
+
+
+
 /* Footer styles */
 
 footer {
