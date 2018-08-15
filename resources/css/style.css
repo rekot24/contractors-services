@@ -71,7 +71,7 @@ th, td {
 /* Navigation Styles */
 
 nav {
-  background-color: rgb(225, 75, 48);
+  background-color: rgb(255, 85, 54);
 }
 
 nav ul {
@@ -220,9 +220,17 @@ main {
   padding: 2rem;
 }
 
-.products-main {
+.products-body {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.products-body h1 {
+  font-size: 4rem;
+  background-color: rgb(255, 85, 54);
+  color: white;
+  width: 100%;
 }
 
 .products-left,
